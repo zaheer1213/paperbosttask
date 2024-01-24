@@ -1,0 +1,41 @@
+.backgrond {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    background: linear-gradient(135deg, rgba(0, 56, 255, 0.5), rgba(0, 240, 255, 0.5), rgba(149, 0, 143, 0.5));
+    height: 100vh;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 802px;
+    height: 110px;
+    flex-shrink: 0;
+}
+
+.topograpy,
+.specifictext,
+.topograpy2,
+.specifictext2 {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-style: normal;
+}
+
+.specifictext,
+.specifictext2 {
+    font-weight: 700;
+    line-height: 10px;
+    /* Adjust line-height according to your needs */
+    text-transform: capitalize;
+}
+
+.specifictext2 {
+    line-height: 34px;
+    /* Adjust line-height according to your needs */
+}

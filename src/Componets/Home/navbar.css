@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(0, 56, 255, 0.5), rgba(0, 240, 255, 0.5), rgba(149, 0, 143, 0.5));
+    color: white; /* Set your desired text color */
+    width: 100%;
+}
+
+.logo img {
+    width: 117.07px; /* Set the width of your logo */
+    height: 81px; /* Set the height of your logo */
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000; /* Set your desired text color for links */
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px; /* Set your desired font size */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px; /* Adjust the spacing between links */
+    cursor: pointer;
+    margin-right: 50px;
+}
